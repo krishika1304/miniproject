@@ -1,0 +1,33 @@
+.loginlogo{
+    width: px;
+    margin-left:40%;
+    margin-top: 20px;
+}
+.login-container{
+    margin: 3% auto;
+    padding: 40px;
+    margin-top: 40px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(244, 233, 233);
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1);
+    background-color: rgb(243, 248, 255); 
+}
+input{
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 40px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: rgb(18, 83, 194);
+    color: white;
+}
+.forgetpassword{
+    margin-top: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    color: blue;
+}

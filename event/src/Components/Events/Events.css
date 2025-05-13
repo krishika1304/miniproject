@@ -1,0 +1,65 @@
+/* src/components/Events.css */
+
+.events-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.loading-spinner {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.event-info {
+  padding: 1rem;
+}
+
+.event-info h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.event-meta {
+  font-size: 0.9rem;
+  color: gray;
+}
